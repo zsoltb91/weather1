@@ -1,0 +1,58 @@
+ul {
+  list-style-type: none;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "logo-title nav1";
+  font-size: 1.5rem;
+  padding-top: 1%;
+}
+
+.title {
+  grid-area: logo-title;
+  font-size: 2rem;
+  height: 2rem;
+  justify-self: start;
+}
+
+.reactlogo {
+  justify-self: start;
+  grid-area: logo-title;
+  width: 1.5rem;
+  margin-right: 10px;
+  margin-bottom: -2px;
+}
+
+.nav { 
+  justify-self: end;
+}
+
+.nav1 {
+  grid-area: nav1;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.nav:hover {
+  opacity: 0.4;
+}

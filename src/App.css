@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+  background-image: url("./assets/backgr2.png");
+  background-size: cover;
+  /*background: #6e6e6e;*/
+  height: 100vh;
+  color: #ffffff;
+}
+
+.App .search {
+  text-align: center;
+  padding: 1rem;
+}
+
+.app .input {
+  padding: 0.7rem 1.5rem;
+  font-size: 1.2rem;
+  border-radius: 25px;
+  border: 1px solid black;
+}

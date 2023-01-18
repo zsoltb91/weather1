@@ -1,0 +1,21 @@
+.searchtitle {
+  margin: 5rem auto 1rem auto;
+}
+
+h1 {
+  margin-bottom: 1rem;
+}
+
+.getbtn {
+  margin: auto auto 3rem auto;
+}
+
+.cityname {
+  font-size: 2rem;
+  margin: auto auto 1rem auto;
+}
+
+.weatherimg {
+  margin: 1rem auto auto auto;
+  width: 4rem;
+}
